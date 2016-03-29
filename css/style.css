@@ -3,12 +3,12 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-color: #202020;
+  background-color: #052026;
   font-family: 'Droid Sans', sans-serif;
 }
 
 section{
-  margin: 0px 0px 0px 0px !important; 
+  margin: 0px 0px 0px 0px !important;
   padding: 0px 0px 0px 0px !important;
 }
 
@@ -26,7 +26,7 @@ main {
   height: 100%;
   position: fixed;
   z-index: 1;
-  background-color: #202020;
+  background-color: #052026;
 }
 
 #dheader, #dprojects, #dother, #dfooter {
@@ -41,7 +41,7 @@ main {
 }
 
 #dprojects2 {
-  background-color: #343434;
+  background-color: #17373E;
   overflow: auto;
 }
 
@@ -50,7 +50,7 @@ main {
 }
 
 .footer {
-  background-color: #252525 !important;
+  background-color: #0b262d !important;
   bottom: 0;
   position: relative;
   margin-top: 0 !important;
@@ -67,7 +67,7 @@ main {
 }
 
 .text-med {
-  color: #969696 !important;
+  color: #6C8A90 !important;
 }
 
 .header-name {
@@ -91,17 +91,17 @@ main {
 }
 
 .btn {
-  background-color: #2A2A2A !important;
+  background-color: #17373E !important;
   margin-bottom: 10px;
 }
 
 .btn.disabled {
-  color: #969696 !important;
-  background-color: #262626 !important;
+  color: #3E6269 !important;
+  background-color: #112A2F !important;
 }
 
 .btn:hover:not(.disabled) {
-  background-color: #2F2F2F !important;
+  background-color: #25444A !important;
 }
 
 .card-image {
@@ -126,4 +126,3 @@ main {
     margin-top: 75px;
   }
 }
-
