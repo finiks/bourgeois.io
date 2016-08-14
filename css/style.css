@@ -3,7 +3,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-color: #052026;
+  background-color: #002B36;
   font-family: 'Droid Sans', sans-serif;
 }
 
@@ -26,7 +26,7 @@ main {
   height: 100%;
   position: fixed;
   z-index: 1;
-  background-color: #052026;
+  background-color: #002B36;
 }
 
 #dheader, #dprojects, #dother, #dfooter {
@@ -41,7 +41,7 @@ main {
 }
 
 #dprojects2 {
-  background-color: #17373E;
+  background-color: #073642;
   overflow: auto;
 }
 
