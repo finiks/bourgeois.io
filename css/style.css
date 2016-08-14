@@ -50,7 +50,7 @@ main {
 }
 
 .footer {
-  background-color: #0b262d !important;
+  background-color: #002731 !important;
   bottom: 0;
   position: relative;
   margin-top: 0 !important;
@@ -91,7 +91,7 @@ main {
 }
 
 .btn {
-  background-color: #17373E !important;
+  background-color: #0b3742 !important;
   margin-bottom: 10px;
 }
 
@@ -101,7 +101,7 @@ main {
 }
 
 .btn:hover:not(.disabled) {
-  background-color: #25444A !important;
+  background-color: #134450 !important;
 }
 
 .card-image {
