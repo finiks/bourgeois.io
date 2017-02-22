@@ -1,4 +1,6 @@
-particlesJS.load('particles-js', 'js/particles.json', function() {});
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) != true) {
+  particlesJS.load('particles-js', 'js/particles.json', function() {});
+}
 
 $(document).ready(function(){
 	$('a[href^="#"]').on('click',function (e) {
