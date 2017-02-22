@@ -22,7 +22,7 @@ main {
 }
 
 p a {
-  color: #00b0ff !important;
+  color: #80d8ff !important;
 }
 
 p a:hover {
@@ -30,7 +30,7 @@ p a:hover {
 }
 
 p a.red-link {
-  color: #b9121b !important;
+  color: #d50000 !important;
 }
 
 p a:hover.red-link {
