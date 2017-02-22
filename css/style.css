@@ -47,6 +47,8 @@ h4 {
   position: fixed;
   z-index: -1;
   background-color: #01579b;
+  background-image: url("../img/bg.png");
+  background-repeat: repeat;
 }
 
 #dheader, #dprojects, #dother, #dfooter {
