@@ -56,8 +56,13 @@ h4 {
   bottom: 0;
 }
 
+#dprojects {
+  overflow: hidden;
+}
+
 #dheader {
-  height: 70vh;
+  /*height: 70vh;*/
+  height: calc(100vh - 260px);
 }
 
 #dprojects2 {
@@ -78,8 +83,9 @@ h4 {
 }
 
 .ground {
-  width: 100%;
+  width: auto;
   display: block;
+  margin-left: calc(-1920px + 100vw);
 }
 
 .text-white {
@@ -138,10 +144,33 @@ h4 {
   }
   .card-image {
   }
+  .ground {
+    margin-left: calc(-1700px + 100vw);
+  }
 }
 
 @media (min-width: 600px) {
   .card-image {
     margin-top: 25px;
+  }
+  .ground {
+    margin-left: calc(-1800px + 100vw);
+  }
+}
+
+@media (min-width: 1800px) {
+  .ground {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+@media (max-height: 400px) {
+  #dheader {
+    height: calc(100vh - 100px);
+  }
+  .ground {
+    margin-left: -200px;
+    margin-top: -170px;
   }
 }
