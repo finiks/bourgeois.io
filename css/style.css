@@ -178,16 +178,6 @@ h4 {
 
 
 
-@media (max-height: 400px) {
-  #dheader {
-    height: calc(100vh - 100px);
-  }
-  .clouds {
-    margin-left: -200px;
-    margin-top: -170px;
-  }
-}
-
 @media (max-width: 700px) {
   #chevron {
     display: none;
@@ -197,6 +187,16 @@ h4 {
   }
   .clouds {
     margin-left: calc(-1700px + 100vw);
+  }
+}
+
+@media (max-height: 400px) {
+  #header {
+    height: calc(100vh - 100px);
+  }
+  .clouds {
+    margin-left: -200px;
+    margin-top: -170px;
   }
 }
 
