@@ -4,17 +4,13 @@ body {
   min-height: 100vh;
   flex-direction: column;
   background-color: #01579b;
-  font-family: 'Droid Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
 
-section{
+section {
   margin: 0px 0px 0px 0px !important;
   padding: 0px 0px 0px 0px !important;
-}
-
-canvas {
-  display: block;
-  vertical-align: bottom;
 }
 
 main {
@@ -22,24 +18,22 @@ main {
 }
 
 p a {
-  color: #80d8ff !important;
+  color: #80d8ff;
 }
 
 p a:hover {
-  color: #40c4ff !important;
+  color: #40c4ff;
 }
 
-p a.red-link {
-  color: #d50000 !important;
-}
-
-p a:hover.red-link {
-  color: #a31018 !important;
+h1, h3, h4 {
+  font-family: 'Open Sans', sans-serif;
 }
 
 h4 {
   margin-top: 30px !important;
 }
+
+
 
 #particles-js {
   width: 100%;
@@ -51,32 +45,39 @@ h4 {
   background-repeat: repeat;
 }
 
-#dheader, #dprojects, #dother, #dfooter {
-  position: relative;
-  vertical-align: middle;
-  z-index: 2;
-  bottom: 0;
-}
-
-#dprojects {
+#cloud-box {
   overflow: hidden;
 }
 
-#dheader {
-  /*height: 70vh;*/
-  height: calc(100vh - 260px);
-}
-
-#dprojects2 {
+#resume {
   background-color: #F5F5F5;
   overflow: auto;
 }
 
-#dother {
+#header {
+  height: calc(100vh - 260px);
+  font-family: 'Open Sans', sans-serif;
+}
+
+#intro {
+  font-size: 16px;
+}
+
+#intro a {
+  color: #d50000;
+}
+
+#intro a:hover {
+  color: #a31018;
+}
+
+#contact-me {
   margin-bottom: 40px;
 }
 
-.footer {
+
+
+.page-footer {
   background-color: #0277bd !important;
   bottom: 0;
   position: relative;
@@ -84,7 +85,7 @@ h4 {
   padding-top: 0 !important;
 }
 
-.ground {
+.clouds {
   width: auto;
   display: block;
   margin-left: calc(-1920px + 100vw);
@@ -102,16 +103,13 @@ h4 {
   color: #000000 !important;
 }
 
-.text-bold {
+.bold {
   font-weight: bold;
 }
 
 .header-name {
   margin-top: 50px !important;
   margin-bottom: 10px !important;
-}
-
-.header-title {
 }
 
 .divider {
@@ -130,38 +128,46 @@ h4 {
   background-color: #a31018 !important;
 }
 
-.card-image {
+.logo {
   max-width: 100%;
   max-height: 50px;
   height: auto;
+}
+
+.face {
+  width: 100px;
+	height: 100px;
+	border-radius: 50%;
 }
 
 .no-bottom-margin {
   margin-bottom: 0px !important;
 }
 
+
+
 @media (max-width: 600px) {
   .col.right-align {
     text-align: left;
   }
-  .card-image {
+  .logo {
   }
-  .ground {
+  .clouds {
     margin-left: calc(-1700px + 100vw);
   }
 }
 
 @media (min-width: 600px) {
-  .card-image {
+  .logo {
     margin-top: 25px;
   }
-  .ground {
+  .clouds {
     margin-left: calc(-1800px + 100vw);
   }
 }
 
 @media (min-width: 1800px) {
-  .ground {
+  .clouds {
     margin-left: 0;
     width: 100%;
   }
@@ -171,7 +177,7 @@ h4 {
   #dheader {
     height: calc(100vh - 100px);
   }
-  .ground {
+  .clouds {
     margin-left: -200px;
     margin-top: -170px;
   }
