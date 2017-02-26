@@ -27,6 +27,7 @@ p a:hover {
 
 h1, h3, h4 {
   font-family: 'Open Sans', sans-serif;
+  color: #2F92D5;
 }
 
 h4 {
@@ -77,6 +78,45 @@ h4 {
 
 
 
+#chevron {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 120px;
+}
+
+.chevron-icon {
+  display: inline-block;
+  border-style: solid;
+	border-width: 0.35em 0.35em 0 0;
+  width: 1.5em;
+	height: 1.5em;
+	left: 0.15em;
+  top: 0.15em;
+	position: relative;
+  vertical-align: top;
+	transform: rotate(135deg);
+  color: #F5F5F5;
+
+  animation-name: chevron-animation;
+	animation-duration: 3000ms;
+  transform-origin:50% 50%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes chevron-animation {
+	0% { transform: rotate(135deg) scale(1); }
+	30% { transform: rotate(135deg) scale(1); }
+	40% { transform: rotate(135deg) scale(1.3); }
+	50% { transform: rotate(135deg) scale(1); }
+	60% { transform: rotate(135deg) scale(1); }
+	70% { transform: rotate(135deg) scale(1.2); }
+	80% { transform: rotate(135deg) scale(1); }
+	100% { transform: rotate(135deg) scale(1); }
+}
+
+
+
 .page-footer {
   background-color: #0277bd !important;
   bottom: 0;
@@ -92,15 +132,7 @@ h4 {
 }
 
 .text-white {
-  color: #FFFFFF !important;
-}
-
-.text-light {
-  color: #2F92D5 !important;
-}
-
-.text-dark {
-  color: #000000 !important;
+  color: #FFFFFF;
 }
 
 .bold {
@@ -120,12 +152,12 @@ h4 {
 }
 
 .btn {
-  background-color: #b9121b !important;
+  background-color: #b9121b;
   margin-bottom: 10px;
 }
 
 .btn:hover {
-  background-color: #a31018 !important;
+  background-color: #a31018;
 }
 
 .logo {
@@ -141,23 +173,34 @@ h4 {
 }
 
 .no-bottom-margin {
-  margin-bottom: 0px !important;
+  margin-bottom: 0px;
 }
 
 
 
-@media (max-width: 600px) {
+@media (max-height: 400px) {
+  #dheader {
+    height: calc(100vh - 100px);
+  }
+  .clouds {
+    margin-left: -200px;
+    margin-top: -170px;
+  }
+}
+
+@media (max-width: 700px) {
+  #chevron {
+    display: none;
+  }
   .col.right-align {
     text-align: left;
-  }
-  .logo {
   }
   .clouds {
     margin-left: calc(-1700px + 100vw);
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   .logo {
     margin-top: 25px;
   }
@@ -170,15 +213,5 @@ h4 {
   .clouds {
     margin-left: 0;
     width: 100%;
-  }
-}
-
-@media (max-height: 400px) {
-  #dheader {
-    height: calc(100vh - 100px);
-  }
-  .clouds {
-    margin-left: -200px;
-    margin-top: -170px;
   }
 }
