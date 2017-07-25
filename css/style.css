@@ -5,7 +5,7 @@ body {
   flex-direction: column;
   background-color: #01579b;
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 section {
@@ -61,7 +61,7 @@ h4 {
 }
 
 #intro {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 #intro a {
