@@ -160,12 +160,6 @@ h4 {
   background-color: #a31018;
 }
 
-.logo {
-  max-width: 225px;
-  max-height: 50px;
-  height: auto;
-}
-
 .face {
   width: 100px;
 	height: 100px;
@@ -174,6 +168,26 @@ h4 {
 
 .no-bottom-margin {
   margin-bottom: 0px;
+}
+
+
+
+@media (max-width: 992px) {
+  .logo-box {
+    text-align: left;
+  }
+}
+
+@media (min-width: 993px) {
+  .logo-box {
+    text-align: right;
+  }
+}
+
+.logo {
+  max-width: 225px;
+  max-height: 50px;
+  height: auto;
 }
 
 
