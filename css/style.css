@@ -19,6 +19,7 @@ main {
 
 p a {
   color: #80d8ff;
+  font-weight: bold;
 }
 
 p a:hover {
