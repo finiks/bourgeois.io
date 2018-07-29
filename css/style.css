@@ -18,12 +18,12 @@ main {
 }
 
 p a {
-  color: #80d8ff;
+  color: #d50000;
   font-weight: bold;
 }
 
 p a:hover {
-  color: #40c4ff;
+  color: #a31018;
 }
 
 h1, h3, h4 {
@@ -73,8 +73,17 @@ h4 {
   color: #a31018;
 }
 
-#contact-me {
+#contact-me a {
   margin-bottom: 40px;
+}
+
+a.blue-link {
+  color: #80d8ff;
+  font-weight: bold;
+}
+
+a.blue-link:hover {
+  color: #ffffff;
 }
 
 
