@@ -212,6 +212,28 @@ a.blue-link:hover {
   .clouds {
     margin-left: calc(-1700px + 100vw);
   }
+  h1 {
+    font-size: 3rem;
+  }
+  h3 {
+    text-align: left;
+  }
+  #resume h1 {
+    text-align: left;
+  }
+  p {
+    text-align: left;
+    word-break: keep-all;
+  }
+  #buttons {
+    display: none;
+  }
+  #resume .row {
+    border-bottom: 1px solid #d7d7d7;
+  }
+  #resume .row.no-bottom-margin {
+    border-bottom: 0px;
+  }
 }
 
 @media (max-height: 400px) {
