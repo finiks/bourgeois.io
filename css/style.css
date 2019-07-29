@@ -1,11 +1,15 @@
+html {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
 body {
   margin: 0;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   background-color: #01579b;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-family: 'Ubuntu', 'Roboto', sans-serif;
 }
 
 section {
@@ -27,7 +31,7 @@ p a:hover {
 }
 
 h1, h3, h4 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: #2F92D5;
 }
 
@@ -58,11 +62,11 @@ h4 {
 
 #header {
   height: calc(100vh - 260px);
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
 }
 
 #intro {
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 
 #intro a {
@@ -135,6 +139,10 @@ a.blue-link:hover {
   padding-top: 0 !important;
 }
 
+#buttons {
+  margin-bottom: 10px;
+}
+
 .clouds {
   width: auto;
   display: block;
@@ -164,6 +172,9 @@ a.blue-link:hover {
 .btn {
   background-color: #b9121b;
   margin-bottom: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-left: 5px;
 }
 
 .btn:hover {
